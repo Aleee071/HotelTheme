@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <nav class="nav-bar nav-resp">
+        <div class="nav-container">
+            <div class="nav-grid">
+                <div class="nav-headers">
+                    <h1>Unwind</h1>
+                    <h1 class="nav-second-header">HOTEL BOOKING</h1>
+                </div>
+                <div class="NAVanchors">
+                    <ul class="nav-anchors">
+                        <a href="#" style="color: white;">
+                            <li>HOME</li>
+                        </a>
+                        <a href="https://aleee071.github.io/CafeTheme/" target="_self">
+                            <li>ABOUT</li>
+                        </a>
+                        <a href="#">
+                            <li>ROOMS</li>
+                        </a>
+                        <a href="#">
+                            <li>RESTO & BAR</li>
+                        </a>
+                        <a href="#">
+                            <li>BLOG</li>
+                        </a>
+                        <a href="#" style="margin-right: 0px;">
+                            <li>CONTACT</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="hamburger-div" style="display: none;">
+                    <button class="hamburger" onclick="hamburger_onclick()">
+                        <i class="fa fa-bars"></i>
+                        <span>Menu</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="hamburger-menu" id="hamburgerMenu" style="display: none;">
+                <ul class="nav-anchors hamburger-list" id="ham-list">
+                    <a href="#" style="color: white;">
+                        <li>HOME</li>
+                    </a>
+                    <a href="https://aleee071.github.io/CafeTheme/" target="_self">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="#">
+                        <li>ROOMS</li>
+                    </a>
+                    <a href="#">
+                        <li>RESTO & BAR</li>
+                    </a>
+                    <a href="#">
+                        <li>BLOG</li>
+                    </a>
+                    <a href="#" style="margin-right: 0px;">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main-sec">
+        <div class="main-sec-overlay">
+            <div class="main-container">
+                <p class="main-txt">ENJOY YOUR WONDERFUL HOLIDAYS WITH A GREAT LUXURY EXPERIENCE!</p>
+                <h1 class="main-header">Most Relaxing Place</h1>
+                <div class="main-btns-div">
+                    <button class="main-btn1">TAKE A TOUR <i class="fa fa-arrow-right"></i></button>
+                    <button class="main-btn2">LEARN MORE <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="main-floating-div">
+                <div class="floating-div-container">
+                    <div class="floating-div-grid">
+                        <div class="floating-column-1">
+                            <p>CHECK-IN</p>
+                            <i class="fa fa-calendar"><input type="text" placeholder="Check-In-Date"></i>
+                        </div>
+                        <div class="floating-column-2">
+                            <p>CHECK-OUT</p>
+                            <i class="fa fa-calendar"><input type="text" placeholder="Check-Out-Date"></i>
+                        </div>
+                        <div class="floating-column-3">
+                            <p>ROOMS</p>
+                            <i class="fa fa-arrow-down"></i><input type="text" placeholder="Suite"></i>
+                        </div>
+                        <div class="floating-column-4">
+                            <p>GUESTS</p>
+                            <i class="fa fa-arrow-down"></i><input type="text" placeholder="1 Person"></>
+                        </div>
+                        <div class="floating-column-5">
+                            <div>
+                                <button>CHECK AVAILABILITY</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-sec">
+        <div class="about-container">
+            <div class="about-grid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div class="left-sec">
+                    <div class="left-grid-1">
+                        <div class="left-container1">
+                            <i class="fa fa-star-half-o"></i>
+                            <header>Cozy Room</header>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                        </div>
+                        <div class="left-container2">
+                            <img src="images/f-services.jpg.webp" alt="">
+                        </div>
+                    </div>
+
+                    <div class="right-grid-1">
+                        <div class="right-container1">
+                            <img src="images/f-services-2.jpg.webp" alt="">
+                        </div>
+                        <div class="right-container2">
+                            <i class="fa fa-star-half-o"></i>
+                            <header>Cozy Room</header>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-sec">
+                    <header>ABOUT US</header>
+                    <h1>Unwind A Hotel Booking Agency</h1>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language ocean.</p>
+                    <button>BOOK YOUR ROOM NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hostel-services">
+        <div class="hostel-service-container">
+            <header data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">UNWIND SERVICES</header>
+            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Explore Our Hotel Services</h1>
+            <div class="hostel-services-grid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div>
+                    <span class="fa fa-wifi"></span>
+                    <p>Free Wifi</p>
+                </div>
+
+                <div>
+                    <span class="fa fa-bar-chart"></span>
+                    <p>Bookings</p>
+                </div>
+
+                <div>
+                    <span class="fa fa-spoon"></span>
+                    <p>Restaurant</p>
+                </div>
+
+                <div id="pool-div">
+                    <span class="fa fa-bathtub"></span>
+                    <p>Swimming Pool</p>
+                </div>
+
+                <div id="beauty-div">
+                    <span class="fa fa-heart-o"></span>
+                    <p>Beauty & Health</p>
+                </div>
+
+                <div>
+                    <span class="fa fa-camera-retro"></span>
+                    <p>Help & Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Find-bestHotel">
+        <div class="bestHotel-overlay ">
+            <div class="Find-bestHotel-container">
+                <div class="bestHotel-grid" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="bestHotel-info">
+                        <header>FIND BEST HOTEL FOR LEAVING</header>
+                        <p>Find the Best Hotel in Your Next Vacation</p>
+                    </div>
+                    <div class="btn-bestHotel-div">
+                        <button class="main-btn1 btn-bestHotel">BOOK NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="room-sec">
+        <div class="room-container">
+            <header data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">OUR ROOMS</header>
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Featured Rooms</h2>
+
+            <div class="room-grid">
+                <div class="column" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="column-container">
+                        <span>Suite Room</span>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
+                        <div class="price-room-div">
+                            <span class="price-room">$450 / Night</span>
+                            <button class="room-btn">BOOK NOW</button>
+                        </div>
+                    </div>
+
+                    <div style="position: relative;">
+                        <div class="room-img-div">
+                            <img src="images/room-1.jpg.webp" alt="room-pic">
+                        </div>
+                        <div class="room-img-overlay"></div>
+                    </div>
+                </div>
+
+                <div class="column"  data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div style="position: relative;">
+                        <div class="room-img-div">
+                            <img src="images/room-2.jpg.webp" alt="room-pic">
+                        </div>
+                        <div class="room-img-overlay"></div>
+                    </div>
+                    <div class="column-container">
+                        <span>Suite Room</span>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
+                        <div class="price-room-div">
+                            <span class="price-room">$450 / Night</span>
+                            <button class="room-btn">BOOK NOW</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column" id="third-col"  data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="column-container">
+                        <span>Suite Room</span>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
+                        <div class="price-room-div">
+                            <span class="price-room">$450 / Night</span>
+                            <button class="room-btn">BOOK NOW</button>
+                        </div>
+                    </div>
+
+                    <div style="position: relative;">
+                        <div class="room-img-div">
+                            <img src="images/room-3.jpg.webp" alt="room-pic">
+                        </div>
+                        <div class="room-img-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tour-section">
+        <div class="overlay-tour">
+            <div class="tour-container">
+                <header data-aos="fade-up" data-aos-duration="1000">WATCH OUR LUXURIOUS HOTEL</header>
+                <h1 data-aos="fade-up" data-aos-duration="1000">Take A Tour</h1>
+                <button data-aos="fade-up" data-aos-duration="1000" onclick="fullscreen_video()"><i class="fa fa-play"></i></button>
+            </div>
+        </div>
+        <div class="full-video" style="display: none;" id="full-video">
+            <div class="video-overlay">
+                <video width="70%" controls>
+                    <source src="images/Cinematic Promo Video - Lisbon City Hotel.mp4" type="video/mp4">
+                </video>
+                <button onclick="close_video()" id="close-btn"><i class="fa fa-close"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="restoBar-sec">
+        <div class="restoNbar-container">
+            <header data-aos="fade-up" data-aos-duration="1000">RESTO & BAR</header>
+            <h1 data-aos="fade-up" data-aos-duration="1000">Restaurant & Bar</h1>
+
+            <div class="restoBar-grid">
+                <div class="restobar-img" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="images/resto-bar.jpg.webp" alt="pic">
+                </div>
+                <div class="menu-grid">
+                    <div class="left-menu-grid">
+                        <div class="dish" data-aos="fade-up" data-aos-duration="1000">
+                            <div><img src="images/menu-1.jpg.webp" alt="menu"></div>
+                            <div>
+                                <p class="dish-name">Grilled Beef with potatoes</p>
+                            </div>
+                            <div>
+                                <p class="dish-price">$20.00</p>
+                            </div>
+                        </div>
+                        <div class="dish" data-aos="fade-up" data-aos-duration="1000">
+                            <div><img src="images/menu-3.jpg.webp" alt="menu"></div>
+                            <div>
+                                <p class="dish-name">Grilled Beef with potatoes</p>
+                            </div>
+                            <div>
+                                <p class="dish-price">$20.00</p>
+                            </div>
+                        </div>
+                        <div class="dish" data-aos="fade-up" data-aos-duration="1000">
+                            <div><img src="images/menu-1.jpg.webp" alt="menu"></div>
+                            <div>
+                                <p class="dish-name">Grilled Beef with potatoes</p>
+                            </div>
+                            <div>
+                                <p class="dish-price">$20.00</p>
+                            </div>
+                        </div>
+                        <div class="dish" data-aos="fade-up" data-aos-duration="1000">
+                            <div><img src="images/menu-5.jpg.webp" alt="menu"></div>
+                            <div>
+                                <p class="dish-name">Grilled Beef with potatoes</p>
+                            </div>
+                            <div>
+                                <p class="dish-price">$20.00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="left-menu-grid">
+                        <div class="dish" data-aos="fade-up" data-aos-duration="1000">
+                            <div><img src="images/menu-3.jpg.webp" alt="menu"></div>
+                            <div>
+                                <p class="dish-name">Grilled Beef with potatoes</p>
+                            </div>
+                            <div>
+                                <p class="dish-price">$20.00</p>
+                            </div>
+                        </div>
+                        <div class="dish" data-aos="fade-up" data-aos-duration="1000">
+                            <div><img src="images/menu-5.jpg.webp" alt="menu"></div>
+                            <div>
+                                <p class="dish-name">Grilled Beef with potatoes</p>
+                            </div>
+                            <div>
+                                <p class="dish-price">$20.00</p>
+                            </div>
+                        </div>
+                        <div class="dish" data-aos="fade-up" data-aos-duration="1000">
+                            <div><img src="images/menu-3.jpg.webp" alt="menu"></div>
+                            <div>
+                                <p class="dish-name">Grilled Beef with potatoes</p>
+                            </div>
+                            <div>
+                                <p class="dish-price">$20.00</p>
+                            </div>
+                        </div>
+                        <div class="dish" data-aos="fade-up" data-aos-duration="1000">
+                            <div><img src="images/menu-1.jpg.webp" alt="menu"></div>
+                            <div>
+                                <p class="dish-name">Grilled Beef with potatoes</p>
+                            </div>
+                            <div>
+                                <p class="dish-price">$20.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonals-sec">
+        <div class="testimonal-container">
+            <header data-aos="fade-up" data-aos-duration="1000" class="testimonal-header">TESTIMONIAL</header>
+            <h1 class="page-title" data-aos="fade-up" data-aos-duration="1000">Happy Guests</h1>
+
+            <div class="testimonal-grid" id="testimonal-grid1" style="display: grid;" data-aos="fade-up" data-aos-duration="1000">
+                <div class="user">
+                    <div class="user-grid">
+                        <div class="user-img">
+                            <img src="images/person_1.jpg.webp" alt="user1">
+                            <i class="fa fa-comments-o"></i>
+                        </div>
+                        <div class="user-info">
+                            <h4>Roger Scott</h4>
+                            <p>MARKETING MANAGER</p>
+                        </div>
+                    </div>
+                    <p class="user-review">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts.</p>
+                </div>
+
+                <div class="user">
+                    <div class="user-grid">
+                        <div class="user-img">
+                            <img src="images/person_2.jpg.webp" alt="user1">
+                            <i class="fa fa-comments-o"></i>
+                        </div>
+                        <div class="user-info">
+                            <h4>Roger Scott</h4>
+                            <p>MARKETING MANAGER</p>
+                        </div>
+                    </div>
+                    <p class="user-review">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts.</p>
+                </div>
+
+                <div class="user user3">
+                    <div class="user-grid">
+                        <div class="user-img">
+                            <img src="images/person_3.jpg.webp" alt="user1">
+                            <i class="fa fa-comments-o"></i>
+                        </div>
+                        <div class="user-info">
+                            <h4>Roger Scott</h4>
+                            <p>MARKETING MANAGER</p>
+                        </div>
+                    </div>
+                    <p class="user-review">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+
+            <div class="testimonal-grid2" id="testimonal-grid2" style="display: none;" data-aos="fade-up" data-aos-duration="1000">
+                <div class="user">
+                    <div class="user-grid">
+                        <div class="user-img">
+                            <img src="images/person_2.jpg.webp" alt="user1">
+                            <i class="fa fa-comments-o"></i>
+                        </div>
+                        <div class="user-info">
+                            <h4>Roger Scott</h4>
+                            <p>MARKETING MANAGER</p>
+                        </div>
+                    </div>
+                    <p class="user-review">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts.</p>
+                </div>
+
+                <div class="user">
+                    <div class="user-grid">
+                        <div class="user-img">
+                            <img src="images/person_1.jpg.webp" alt="user1">
+                            <i class="fa fa-comments-o"></i>
+                        </div>
+                        <div class="user-info">
+                            <h4>Roger Scott</h4>
+                            <p>MARKETING MANAGER</p>
+                        </div>
+                    </div>
+                    <p class="user-review">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts.</p>
+                </div>
+
+                <div class="user user3">
+                    <div class="user-grid">
+                        <div class="user-img">
+                            <img src="images/person_3.jpg.webp" alt="user1">
+                            <i class="fa fa-comments-o"></i>
+                        </div>
+                        <div class="user-info">
+                            <h4>Roger Scott</h4>
+                            <p>MARKETING MANAGER</p>
+                        </div>
+                    </div>
+                    <p class="user-review">Far far away, behind the word mountains, far from the countries Vokalia and
+                        Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+            <div class="dot-btns">
+                <span class="dot" id="dot1"></span>
+                <span class="dot" id="dot2"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter-sec" id="counter-sec">
+        <div class="counter-container">
+            <div class="counter-grid">
+                <div class="counter" data-aos="fade-up" data-aos-duration="1000">
+                    <p class="counter-value" id="counter1" value="3900">0</p>
+                    <span># of Happy Guests</span>
+                </div>
+
+                <div class="counter" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <p class="counter-value" id="counter2" value="320">0</p>
+                    <span># of Rooms</span>
+                </div>
+
+                <div class="counter" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"> 
+                    <p class="counter-value" id="counter3" value="1000">0</p>
+                    <span># of Staffs</span>
+                </div>
+
+                <div class="counter" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <p class="counter-value" id="counter4" value="587">0</p>
+                    <span># of Destination</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-sec">
+        <div class="blog-container">
+            <header data-aos="fade-up" data-aos-duration="1000" class="testimonal-header">OUR BLOG</header>
+            <h1 class="page-title" data-aos="fade-up" data-aos-duration="1000">Recent Blog</h1>
+
+            <div class="blog-grid">
+                <div class="blog" data-aos="fade-up" data-aos-duration="1000">
+                    <img class="blog-img" src="images/image_2.jpg.webp" alt="image">
+                    <div class="blog-txt">
+                        <span>ADMIN</span>
+                        <span>DEC, 23, 2021</span>
+                        <a href="#" class="comments-blog">3 COMMENTS</a>
+                        <header class="blog-title">Best Hotel Near Beach in Hawaii</header>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="blog" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <img class="blog-img" src="images/image_4.jpg.webp" alt="image">
+                    <div class="blog-txt">
+                        <span>ADMIN</span>
+                        <span>DEC, 23, 2021</span>
+                        <a href="#" class="comments-blog">3 COMMENTS</a>
+
+                        <header class="blog-title">Best Hotel Near Beach in Hawaii</header>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="blog blog3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <img class="blog-img" src="images/image_2.jpg.webp" alt="image">
+                    <div class="blog-txt">
+                        <span>ADMIN</span>
+                        <span>DEC, 23, 2021</span>
+                        <a href="#" class="comments-blog">3 COMMENTS</a>
+
+                        <header class="blog-title">Best Hotel Near Beach in Hawaii</header>
+                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="images-showcase">
+        <div class="showcase-container">
+            <div class="showcase-grid">
+                <div class="showcase-img-div" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="images/gallery-1.jpg.webp"><img src="images/gallery-1.jpg.webp" alt="image"></a>
+                    <div class="overlay-gallery"></div>
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <div class="showcase-img-div" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <a href="images/gallery-2.jpg.webp"><img src="images/gallery-4.jpg.webp" alt="image"></a>
+                    <div class="overlay-gallery"></div>
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <div class="showcase-img-div" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <a href="images/gallery-4.jpg.webp"><img src="images/gallery-3.jpg.webp" alt="image"></a>
+                    <div class="overlay-gallery"></div>
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <div class="showcase-img-div showcase-img-resp" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <a href="images/gallery-2.jpg.webp"><img src="images/gallery-4.jpg.webp" alt="image"></a>
+                    <div class="overlay-gallery"></div>
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <div class="showcase-img-div showcase-img2-resp" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <a href="images/gallery-1.jpg.webp"><img src="images/gallery-1.jpg.webp" alt="image"></a>
+                    <div class="overlay-gallery"></div>
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="nav-headers f-col1">
+                    <h1>Unwind</h1>
+                    <h1 class="nav-second-header">HOTEL BOOKING</h1>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="f-col2">
+                    <h1>SERVICES</h1>
+                    <div class="f-col2-grid">
+                        <ul class="f-col2-list">
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-caret-right"></i>
+                                    Free Wifi
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-caret-right"></i>
+                                    Easy Booking
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-caret-right"></i>
+                                    Restaurant
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-caret-right"></i>
+                                    Swimming Pool
+                                </li>
+                            </a>
+                        </ul>
+
+                        <ul class="f-col2-list">
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-caret-right"></i>
+                                    Beauty & Health
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-caret-right"></i>
+                                    60" Flatscreen TV
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-caret-right"></i>
+                                    Cold Aircondition
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <i class="fa fa-caret-right"></i>
+                                    Help & Support
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="f-col3">
+                    <h1>Quick Links</h1>
+                    <ul class="f-col2-list">
+                        <a href="#">
+                            <li>
+                                <i class="fa fa-caret-right"></i>
+                                Home
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <i class="fa fa-caret-right"></i>
+                                About
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <i class="fa fa-caret-right"></i>
+                                Rooms
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <i class="fa fa-caret-right"></i>
+                                Resto & Bar
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="f-col4">
+                    <h1>Have a Question?</h1>
+                    <div class="f-col4-row">
+                        <div>
+                            <i class="fa fa-map"></i>
+                        </div>
+                        <p> 203 Fake St. Mountain View, San Francisco, California, USA</p>
+                    </div>
+                    <div class="f-col4-row">
+                        <div>
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <p>+2 392 3929 210</p>
+                    </div>
+                    <div class="f-col4-row">
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <p>info@yourdomain.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
